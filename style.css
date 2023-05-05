@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+}
+
+header{
+    align-items: center;
+    background-color: #24292f;
+    padding: 5px 20px;
+}
+
+header > img{
+    width: 100px;
+    border-radius: 100%;
+}
+nav{
+    float: right
+}
+nav > a{
+    text-decoration: none;
+    color: #fff;
+}
+nav > a:hover{
+    color: #d3d3d3;
+}
+
+main{
+    padding: 80px;
+    display: flex;
+    gap: 30px;
+}
+
+article{
+    
+    outline: solid #ccc 1px;
+    width: 400px;
+    height: 200px;
+    border-radius: 15px;
+    transition: all .5s;
+    transition-timing-function: cubic-bezier(0.19, 0.91, 0.28, 1.26);
+
+}
+
+article:hover{
+    transform: translateY(-5px);
+    box-shadow: #ccc 0 5px 10px;
+}
